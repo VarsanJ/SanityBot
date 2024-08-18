@@ -1,1 +1,11 @@
-# SANITYbotV2
+## Inspiration
+Two years of isolation has significantly impacted the mental health of everybody. According to the World Health Organization, rates of depression and anxiety increased 25% in the first year of the pandemic. Often, a key solution for this is to have somebody to talk to. A major factor which contributed to this was the isolation brought upon the pandemic. Many people were left on their own with nobody to talk to. These include seniors, vulnerable communities and military veterans. Unfortunately, our modern computers are not able to entirely replicate a human being. However, having a chatbot which positively promotes mental health and serves as a companion would positively benefit so many individuals. 
+
+## What it does
+SanityBot works to understand key terminologies and vocabulary to determine what a relevant topic is. With many different topics such as depression, PTSD and eating disorders, SanityBot analyzes key words to determine the most relevant matching topic. 
+
+## Development History
+Originally, the plan was to create the program using an AI system powered by Azure Bot Services. However, to enable us to create more originality, we decided to pivot to a program based on OpenAI. When we tried to deploy the C# code using OpenAI, we encountered exceptions since no values were being returned by the API key. Despite lots of troubleshooting and investigation, we were finding it difficult to resolve the issue within the deadline. As a result, we decided on a new approach based upon Artificial Intelligence. We gave data (in arrays) of keywords of each topic. For example, someone who was saying they were depressed might use the key word sad. Someone requiring assistance might use the word help. By setting a counter for each topic, we determined which topic the user was most likely inquiring about based on which counter had the most repeats. We included many features, such as quotes, positive messaging and an information guide. We also used colour and text-based formatting to make the program user friendly.
+
+## What's next for SanityBot
+In the future, we look forward to expanding the number of topics SanityBot covers as well as allowing it to hold longer and more deeper conversations.
